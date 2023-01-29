@@ -1,5 +1,7 @@
 # Predicting_customers_ratings_on_Yelp_using_text_reviews
 
+Review Ratings are useful for customers as going through numerous text reviews for a restaurant can be time consuming. The ratings given can be at times subjective and biased towards users personality. This model predicts ratings by only using the text review and cancels out the subjectivity.
+
 ## Data Extraction from YELP
 ##### 1. Using YELP Fusion API
 YELP has given developers access to download datasets using their API where-in:
@@ -60,4 +62,15 @@ YELP has given developers access to download datasets using their API where-in:
 - It cant handle missing data and data imputation is to be performed
 
 ## Comparison of Model Performance
+Model                | Training_Time      | Accuracy   | F1-Score(Weighted)
+| ---                | ---                | ---        | ---                |
+Naive Bayes          | 1.28s              | 0.59       | 0.60  
+Logistic Regression  | 3m 17s             | 0.63       | 0.64    
+Random Forest        | 46m 26s            | 0.63       | 0.64  
+Linear SVM           | 16.2s              | 0.62       | 0.61  
 
+Logistic Regression classifier seems to have the best performance overall considering the training time, accuracy and F1 score. 
+
+#### References:
+1. Pang-Ning Tan, Michael Steinbach, Anuj Karpatne, and Vipin Kumar. 2018. Introduction to Data Mining (2nd Edition) (2nd. ed.). Pearson.
+2. https://arxiv.org/abs/2012.06690
