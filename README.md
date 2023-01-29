@@ -1,6 +1,12 @@
 # Predicting_customers_ratings_on_Yelp_using_text_reviews
 
-Review Ratings are useful for customers as going through numerous text reviews for a restaurant can be time consuming. The ratings given can be at times subjective and biased towards users personality. This model predicts ratings by only using the text review and cancels out the subjectivity.
+Review Ratings are useful for customers as going through numerous text reviews for a restaurant can be time consuming. The ratings given by previous customers can be at times subjective and biased towards his/her personality. This model predicts ratings by only using the text review and cancels out the subjectivity.
+
+### Learnings:
+1. Data Mining using Regular Expressions and APIs
+2. Working with large datasets in .json format
+3. Vectorization of textual data to create features for model training
+4. Comparing Model Performance of Naïve Bayes Classifier, Logistic Regression Classifier, Random Forest Classifier and Linear Support Vector Machine
 
 ## Data Extraction from YELP
 ##### 1. Using YELP Fusion API
