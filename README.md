@@ -1,6 +1,9 @@
 # Predicting_customers_ratings_on_Yelp_using_text_reviews
 
-Review Ratings are useful for customers as going through numerous text reviews for a restaurant can be time consuming. The ratings given by previous customers can be at times subjective and biased towards users personality. This model predicts ratings by only using the text review and cancels out the subjectivity.
+### Business Case:
+Review Ratings are useful for customers as going through numerous text reviews for a restaurant can be time consuming. The ratings given can be at times subjective and biased towards users personality. 68% of the ratings on the website are 4 or 5 on the scale of 1- 5.
+
+This model predicts ratings by only using the text review while cancelling out the subjectivity and therefore can be used to understand users sentiment towards a business. This model can also be extended to predict a customers likely rating of different businesses.
 
 ### Learnings:
 1. Data Mining using Regular Expressions and APIs
