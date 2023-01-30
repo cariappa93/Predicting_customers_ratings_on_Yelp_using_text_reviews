@@ -11,6 +11,9 @@ This model predicts ratings by only using the text review while cancelling out t
 3. Vectorization of textual data to create features for model training
 4. Comparing Model Performance of Naïve Bayes Classifier, Logistic Regression Classifier, Random Forest Classifier and Linear Support Vector Machine
 
+### Technology:
+Python using packages: pandas, numpy, re, matplotlib, sklearn
+
 ## Data Extraction from YELP
 ##### 1. Using YELP Fusion API
 YELP has given developers access to download datasets using their API where-in:
